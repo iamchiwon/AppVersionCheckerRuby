@@ -6,7 +6,7 @@ class Version < ActiveRecord::Base
     if !cver
       cver= Version.new
       cver.app_key= appkey
-      cver.latest_version= current
+      cver.latest_version= '0'
       cver.save
     end
     
