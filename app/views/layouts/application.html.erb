@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>AppVersionChecker</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+	<head>
+		<title>AppVersionChecker</title>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
 
-<div class="container">
-	<%= yield %>
-</div>
-
-</body>
+		<div class="container">
+			<%= yield %>
+			<br />
+			<br />
+			<a href="https://github.com/iamchiwon/AppVersionCheckerRuby" class="btn btn-xs"> <img src="https://github.com/fluidicon.png" style="width: 20px; height: 20px;"> github.com/iamchiwon/AppVersionCheckerRuby </a>
+		</div>
+	</body>
 </html>

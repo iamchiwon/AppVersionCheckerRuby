@@ -1,7 +1,7 @@
 #AppVersionChecker (ROR version)
 
-** GAE Version ** [GAE version](https://github.com/iamchiwon/AppVersionChecker)
-** Implementation ** [Working Sample]()
+- ** GAE Version ** [GAE version](https://github.com/iamchiwon/AppVersionChecker)
+- ** Implementation ** [Working Sample]()
 
 ### 등록된 버전 리스트 확인
 - 브라우저에서 / 로 라우팅
